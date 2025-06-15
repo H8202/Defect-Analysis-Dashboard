@@ -58,6 +58,9 @@ Used `pandas.describe()` to evaluate:
 | Recall        | 59%            | 71%                  |
 | F1 Score      | 56%            | 49%                  |
 
+* Random Forest is most effective at identifying defective items, which is critical in manufacturing if missing a defect is costly*
+* Random forest offers better balance as seen by a higher F1 score for both defects and non-defects*
+
 ---
 
 ## 📊 Power BI Dashboard Features
@@ -69,9 +72,8 @@ Built an interactive dashboard to visualize:
 - **Actionable insights** for operations and quality teams
 
 ### Key Dashboard Pages:
-1. **Model Performance Summary**
-2. **Process Variable Analysis**
-3. **Defect Distribution Insights**
+1. **Overview**
+2. **Model Comparision**
 
 Dashboard allows users to explore how different production factors impact defect likelihood.
 
@@ -80,9 +82,9 @@ Dashboard allows users to explore how different production factors impact defect
 ## 🧠 Skills Demonstrated
 
 - **Exploratory Data Analysis (EDA)**: Analyzed distributions, trends, and outliers using `pandas` and visualizations.
-- **Data Cleaning & Feature Selection**: Removed irrelevant columns to streamline modeling.
+- **Data Cleaning & Feature Selection**: Ensured there were no missing values, removed irrelevant columns to streamline modeling.
 - **Supervised Machine Learning**: Trained and evaluated Random Forest and Logistic Regression classifiers.
-- **Class Imbalance Handling**: Applied SMOTE to improve detection of rare defect events.
+- **Class Imbalance Handling**: Applied SMOTE and class imbalance to improve detection of rare defect events.
 - **Power BI Dashboarding**: Created interactive visualizations and KPIs for stakeholder-friendly communication.
 - **Root Cause Identification**: Used model insights to identify maintenance hours and quality score as primary defect drivers.
 - **Process Interpretation for Quality Improvement**: Linked statistical and ML insights to potential changes in production and quality practices.

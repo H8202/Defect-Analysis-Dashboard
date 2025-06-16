@@ -12,6 +12,16 @@ This project applies machine learning and data visualization to analyze and redu
 
 ---
 
+## Dataset
+
+The dataset used in this project is [Predicting Manufacturing Defects](https://www.kaggle.com/datasets/rabieelkharoua/predicting-manufacturing-defects-dataset/data) by **Rabie El Kharoua**, available on Kaggle.
+
+This dataset is licensed under the [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/) license. 
+
+This version of the dataset was modified from the original to support analysis in this project.
+
+---
+
 ## 🔍 Exploratory Data Analysis (EDA)
 
 Before modeling, I conducted EDA to understand data behavior and early defect patterns.

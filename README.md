@@ -84,22 +84,18 @@ Dashboard allows users to explore how different production factors impact defect
 - **Exploratory Data Analysis (EDA)**: Analyzed distributions, trends, and outliers using `pandas` and visualizations.
 - **Data Cleaning & Feature Selection**: Ensured there were no missing values, removed irrelevant columns to streamline modeling.
 - **Supervised Machine Learning**: Trained and evaluated Random Forest and Logistic Regression classifiers.
-- **Class Imbalance Handling**: Applied SMOTE and class imbalance to improve detection of rare defect events.
-- **Power BI Dashboarding**: Created interactive visualizations and KPIs for stakeholder-friendly communication.
+- **Class Imbalance Handling**: Applied SMOTE and class imbalance to improve detection of minority class.
+- **Power BI Dashboarding**: Created visualizations and KPIs for stakeholder-friendly communication.
 - **Root Cause Identification**: Used model insights to identify maintenance hours and quality score as primary defect drivers.
 - **Process Interpretation for Quality Improvement**: Linked statistical and ML insights to potential changes in production and quality practices.
-- **Version Control & Documentation**: Managed the project using Git/GitHub and documented all steps clearly.
+
 
 ---
 
 ## 🛠️ Tools & Technologies
 
 - **Python**: pandas, scikit-learn, imbalanced-learn (SMOTE)
-- **Power BI**: for dashboarding and interactive visualization
+- **Power BI**: for dashboarding and visualization
 - **Jupyter Notebook**: for model development
 - **Git & GitHub**: version control and project sharing
-
----
-
-## 📁 Repository Structure
 

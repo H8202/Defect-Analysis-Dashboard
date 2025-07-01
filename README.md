@@ -1,4 +1,4 @@
-# 🛠️ Defect Analysis Dashboard | Power BI + Machine Learning
+# Defect Analysis Dashboard | Power BI + Machine Learning
 
 This project applies machine learning and data visualization to analyze and reduce manufacturing defects. A Random Forest Classifier was trained to predict defect occurrence, and key insights are presented through an interactive Power BI dashboard. This tool is designed to support operations teams in identifying root causes and improving process performance.
 
@@ -102,10 +102,9 @@ Dashboard allows users to explore how different production factors impact defect
 
 ---
 
-## 🛠️ Tools & Technologies
+## Tools & Technologies
 
 - **Python**: pandas, scikit-learn, imbalanced-learn (SMOTE)
 - **Power BI**: for dashboarding and visualization
 - **Jupyter Notebook**: for model development
-- **Git & GitHub**: version control and project sharing
 

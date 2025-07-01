@@ -4,7 +4,7 @@ This project applies machine learning and data visualization to analyze and redu
 
 ---
 
-## 📌 Project Overview
+## Project Overview
 
 - **Objective**: Identify key contributors to product defects and visualize actionable insights for decision-making.
 - **Approach**: Conduct exploratory analysis, clean and preprocess data, train classification models, and deploy findings in a Power BI dashboard.
@@ -22,7 +22,7 @@ This version of the dataset was modified from the original to support analysis i
 
 ---
 
-## 🔍 Exploratory Data Analysis (EDA)
+## Exploratory Data Analysis (EDA)
 
 Before modeling, I conducted EDA to understand data behavior and early defect patterns.
 
@@ -46,7 +46,7 @@ Used `pandas.describe()` to evaluate:
 
 ---
 
-## 🤖 Machine Learning Summary
+## Machine Learning Summary
 
 - **Model Used**: Random Forest Classifier
 - **Baseline**: Logistic Regression
@@ -73,9 +73,9 @@ Used `pandas.describe()` to evaluate:
 
 ---
 
-## 📊 Power BI Dashboard Features
+## Power BI Dashboard Features
 
-Built an interactive dashboard to visualize:
+Built a dashboard to visualize:
 - **Feature importance** from the model
 - **Evaluation metrics** (accuracy, precision, recall, F1)
 - **Relationships** between variables and defect status
@@ -89,10 +89,10 @@ Dashboard allows users to explore how different production factors impact defect
 
 ---
 
-## 🧠 Skills Demonstrated
+## Skills Demonstrated
 
 - **Exploratory Data Analysis (EDA)**: Analyzed distributions, trends, and outliers using `pandas` and visualizations.
-- **Data Cleaning & Feature Selection**: Ensured there were no missing values, removed irrelevant columns to streamline modeling.
+- **Data Cleaning**: Ensured there were no missing values, removed irrelevant columns to streamline modeling.
 - **Supervised Machine Learning**: Trained and evaluated Random Forest and Logistic Regression classifiers.
 - **Class Imbalance Handling**: Applied SMOTE and class imbalance to improve detection of minority class.
 - **Power BI Dashboarding**: Created visualizations and KPIs for stakeholder-friendly communication.
